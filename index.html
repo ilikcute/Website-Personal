@@ -268,7 +268,7 @@
                     </div>
                     <div>
                         <h1 class="font-barlow-condensed font-bold text-lg text-merah-indonesia" id="nav-title">LOADING...</h1>
-                        <p class="text-xs text-gray-600">HUT RI ke-80</p>
+                        <p class="text-xs text-gray-600">FAMILY GATHERING</p>
                     </div>
                 </div>
                 
@@ -419,7 +419,7 @@
                     <i class="fas fa-calendar-alt mr-3"></i>Jadwal Kegiatan
                 </h2>
                 <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-                    Dua kegiatan utama yang telah direncanakan dengan matang untuk merayakan kemerdekaan bersama
+                    Berikut kegiatan utama dalam acara family gathering
                 </p>
             </div>
             
@@ -476,8 +476,8 @@
                                 <i class="fas fa-walking text-white text-2xl"></i>
                             </div>
                             <div>
-                                <h3 class="font-barlow-condensed font-bold text-2xl text-merah-indonesia">JALAN SEHAT</h3>
-                                <p class="text-gray-600">Olahraga bersama keluarga</p>
+                                <h3 class="font-barlow-condensed font-bold text-2xl text-merah-indonesia">Barbeque Keluarga</h3>
+                                <p class="text-gray-600">Kebersamaan dan keceriaan bersama keluarga</p>
                             </div>
                         </div>
                         
@@ -526,7 +526,7 @@
                     <i class="fas fa-users mr-3"></i>SUSUNAN PANITIA
                 </h2>
                 <p class="text-white/90 text-lg max-w-2xl mx-auto">
-                    Tim solid yang telah disiapkan untuk mensukseskan peringatan HUT RI ke-80
+                    Tim solid yang telah disiapkan untuk mensukseskan family GATHERING
                 </p>
             </div>
             
@@ -544,7 +544,7 @@
                     <i class="fas fa-money-bill-wave mr-3"></i>RENCANA ANGGARAN
                 </h2>
                 <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-                    Transparansi pengelolaan dana untuk kesuksesan acara kemerdekaan bersama
+                    Transparansi pengelolaan dana untuk kesuksesan acara family gathering
                 </p>
             </div>
 
@@ -648,7 +648,7 @@
                     <i class="fas fa-map-marker-alt mr-3"></i>LOKASI KEGIATAN
                 </h2>
                 <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-                    Lokasi strategis dan mudah dijangkau untuk seluruh kegiatan kemerdekaan
+                    Lokasi strategis dan mudah dijangkau untuk seluruh kegiatan family gathering
                 </p>
             </div>
 
@@ -744,7 +744,7 @@
                     <i class="fas fa-images mr-3"></i>GALERI KEGIATAN
                 </h2>
                 <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-                    Dokumentasi kegiatan kemerdekaan tahun-tahun sebelumnya dan persiapan acara tahun ini
+                    Dokumentasi kegiatan family gathering tahun-tahun sebelumnya dan persiapan acara tahun ini
                 </p>
             </div>
 
@@ -806,7 +806,7 @@
                     <h3 class="font-barlow-condensed font-bold text-2xl text-merah-indonesia mb-4">
                         <i class="fab fa-youtube mr-3 text-red-600"></i>CHANNEL YOUTUBE
                     </h3>
-                    <p class="text-gray-600" id="youtube-description">Saksikan dokumentasi lengkap kegiatan kemerdekaan dan acara lainnya</p>
+                    <p class="text-gray-600" id="youtube-description">Saksikan dokumentasi lengkap kegiatan family gathering dan acara lainnya</p>
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -973,18 +973,18 @@
             const org = SITE_CONFIG.organization;
             const contact = SITE_CONFIG.contact;
 
-            document.getElementById('page-title').textContent = `HUT RI ke-80 ${org.name} | Peringatan Kemerdekaan Indonesia 2025`;
-            document.getElementById('page-description').content = `Peringatan HUT RI ke-80 ${org.name} dengan berbagai kegiatan perlombaan dan jalan sehat. Bergabunglah dalam semangat Bersatu Berdaulat, Rakyat Sejahtera, Indonesia Maju.`;
-            document.getElementById('page-keywords').content = `HUT RI 80, kemerdekaan indonesia, ${org.name}, perlombaan 17 agustus, jalan sehat, ${contact.city}`;
+            document.getElementById('page-title').textContent = `FAMILY GATHERING ${org.name} | Peringatan Kemerdekaan Indonesia 2025`;
+            document.getElementById('page-description').content = `Peringatan FAMILY GATHERING ${org.name} dengan berbagai kegiatan perlombaan dan jalan sehat. Bergabunglah dalam semangat Bersatu Berdaulat, Rakyat Sejahtera, Indonesia Maju.`;
+            document.getElementById('page-keywords').content = `FAMILY GATHERING, ${org.name}, perlombaan 09 dan 10 agustus, Joget berkelompok, ${contact.city}`;
             document.getElementById('page-author').content = org.name;
 
             // Open Graph
-            document.getElementById('og-title').content = `HUT RI ke-80 ${org.name}`;
-            document.getElementById('og-description').content = `Peringatan Kemerdekaan Indonesia ke-80 dengan berbagai kegiatan meriah di ${org.name}`;
+            document.getElementById('og-title').content = `FAMILY GATHERING ${org.name}`;
+            document.getElementById('og-description').content = `Family gathering dengan berbagai kegiatan meriah di ${org.name}`;
 
             // Twitter Card
-            document.getElementById('twitter-title').content = `HUT RI ke-80 ${org.name}`;
-            document.getElementById('twitter-description').content = `Peringatan Kemerdekaan Indonesia ke-80 dengan berbagai kegiatan meriah di ${org.name}`;
+            document.getElementById('twitter-title').content = `FAMILY GATHERING ${org.name}`;
+            document.getElementById('twitter-description').content = `Family gathering dengan berbagai kegiatan meriah di ${org.name}`;
         }
 
         function updateHeroSection() {
@@ -999,13 +999,13 @@
         function updateAboutSection() {
             const org = SITE_CONFIG.organization;
             document.getElementById('about-description').innerHTML = `
-                Dalam rangka memperingati Hari Ulang Tahun Kemerdekaan Republik Indonesia yang ke-80, 
+                Dalam rangka Family gathering, 
                 <strong>${org.name}</strong> dengan bangga menggelar serangkaian kegiatan yang mengusung semangat 
-                <strong>"Bersatu Berdaulat, Rakyat Sejahtera, Indonesia Maju"</strong>. 
-                Kegiatan ini dirancang untuk mempererat tali silaturahmi antar warga, 
-                melestarikan nilai-nilai kebersamaan, dan merayakan kemerdekaan dengan penuh sukacita.
+                <strong>"Bersatu Berdaulat, Manajer Sejahtera, Indomaret Maju"</strong>. 
+                Kegiatan ini dirancang untuk mempererat tali silaturahmi antar manager, 
+                melestarikan nilai-nilai kebersamaan, dan merayakan kebersamaan dengan penuh sukacita.
             `;
-            document.getElementById('value-togetherness').textContent = `Mempererat hubungan antar warga ${org.name}`;
+            document.getElementById('value-togetherness').textContent = `Mempererat hubungan antar manager ${org.name}`;
         }
 
         function updateScheduleSection() {
@@ -1266,8 +1266,8 @@
             document.getElementById('footer-logo').textContent = SITE_CONFIG.theme.logoText;
             document.getElementById('footer-title').textContent = org.name.toUpperCase();
             document.getElementById('footer-description').textContent = `
-                Bersama-sama merayakan 80 tahun kemerdekaan Indonesia dengan semangat gotong royong, 
-                persatuan, dan cinta tanah air. Mewujudkan Indonesia yang bersatu, berdaulat, sejahtera, dan maju.
+                Bersama-sama family gathering dengan semangat kebersamaan, 
+                persatuan, Mewujudkan Kekompakan karyawan untuk memajukan Usaha bersama.
             `;
             
             document.getElementById('footer-contact').innerHTML = `
@@ -1282,7 +1282,7 @@
                 <li><i class="fas fa-phone mr-2 text-purple-400"></i>Info: ${contact.phone}</li>
             `;
 
-            document.getElementById('footer-copyright').textContent = `© 2025 ${org.name}. Dibuat dengan ❤️ untuk Kemerdekaan Indonesia ke-80`;
+            document.getElementById('footer-copyright').textContent = `© 2025 ${org.name}. Dibuat dengan ❤️ untuk Indomaret`;
         }
 
         function formatCurrency(amount) {
@@ -1414,9 +1414,9 @@
             
             marker.bindPopup(`
                 <div style="text-align: center; padding: 10px;">
-                    <h3 style="color: ${SITE_CONFIG.theme.primaryColor}; margin: 0 0 8px 0; font-size: 16px; font-weight: bold;">HUT RI ke-80 ${org.name}</h3>
+                    <h3 style="color: ${SITE_CONFIG.theme.primaryColor}; margin: 0 0 8px 0; font-size: 16px; font-weight: bold;">FAMILY GATHERING ${org.name}</h3>
                     <p style="margin: 0 0 8px 0; font-size: 14px;">${SITE_CONFIG.contact.address}</p>
-                    <p style="margin: 0; font-size: 12px; color: #666;">📅 17 & 24 Agustus 2025</p>
+                    <p style="margin: 0; font-size: 12px; color: #666;">📅 09 & 10 Agustus 2025</p>
                 </div>
             `).openPopup();
         }
